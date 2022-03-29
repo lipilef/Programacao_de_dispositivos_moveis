@@ -26,8 +26,8 @@ class IMC(var nome: String?, var peso: Float, var altura: Float, var imc: Float)
                 in 17 ..19 ->"Magreza leve"
                 in 19 ..25 ->"Saúdavel"
                 in 25 ..30 ->"Sobrepeso"
-                in 30 ..35 ->"Obsesidade I"
-                in 35 ..40 ->"Obsesidade II"
+                in 30 ..35 ->"Nível I de proteção contra o frio"
+                in 35 ..40 ->"Nível II de proteção contra o frio"
                 else -> "Obsedidade Morbida."
             }
 
